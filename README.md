@@ -1,3 +1,5 @@
+![CjScan logo](CjScan.png)
+
  CjScan — Repository (all files)
 
 This document contains the complete set of starter files for the **CjScan** repository — Smart Clickjacking Scanner.
