@@ -53,7 +53,7 @@ playwright install
 ### 2. Run scanner
 
 ```bash
-python3 cjscan.py https://example.com --threads 8 --discover --output results.csv
+python3 cjscan.py https://noones.com/ --threads 20 --discover --render --delay 0.1 --max-urls 5000
 ```
 
  3. Outputs
