@@ -51,7 +51,7 @@ playwright install
 ### 2. Run scanner
 
 ```bash
-python3 cj_scanner.py https://example.com --threads 8 --discover --output results.csv
+python3 cjscan.py https://example.com --threads 8 --discover --output results.csv
 ```
 
  3. Outputs
@@ -95,5 +95,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
----
 
