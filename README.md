@@ -7,11 +7,11 @@ This document contains the complete set of starter files for the **CjScan** repo
 ---
 
 ````md
-# CjScan
+CjScan
 
 Smart Clickjacking Scanner — sensitive-aware crawler and JS endpoint extractor for authorized security testing.
 
-## Features
+ Features
 
 - Prioritized crawling using sitemaps and keyword scoring
 - Extracts endpoints from HTML, JS (fetch/axios/template literals), and JSON
@@ -20,13 +20,13 @@ Smart Clickjacking Scanner — sensitive-aware crawler and JS endpoint extractor
 - PoC iframe generator for potential vulnerable pages
 - CSV report + scan summary
 
-## Disclaimer / Legal
+ Disclaimer / Legal
 
 **Run only against targets you own or have explicit written permission to test.** Misuse may be illegal.
 
-## Quickstart
+ Quickstart
 
-### 1. Create virtualenv & install
+ 1. Create virtualenv & install
 
 ```bash
 python3 -m venv .venv
@@ -54,26 +54,22 @@ playwright install
 python3 cj_scanner.py https://example.com --threads 8 --discover --output results.csv
 ```
 
-### 3. Outputs
+ 3. Outputs
 
 * `results.csv` — detailed findings
 * `scan_summary.txt` — summary
 * `cj_poc_<domain>_...html` — PoC iframe pages (if generated)
 
-## Contributing
+Contributing
 
 PRs welcome. Please follow `CODE_OF_CONDUCT.md` and `CONTRIBUTING.md`.
 
-## License
+ License
 
 MIT License — see `LICENSE` file.
 
 ```
-```
-
----
-
-# LICENSE (MIT)
+LICENSE 
 
 ```text
 MIT License
